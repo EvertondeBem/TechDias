@@ -1,0 +1,217 @@
+/* Estilos para a barra de navegação */
+header {
+    background-color: #007BFF; /* Azul */
+    color: #FFFFFF; /* Branco */
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Branco */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #28A745; /* Verde */
+}
+/*corpo*/
+main {
+    padding: 2rem 0;
+}
+
+.description, .carousel, .contacts {
+    background-color: #FFFFFF; /* Branco */
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Estilos para a área de descrição */
+.description {
+    background-color: #f8f9fa; /* Cinza claro */
+    padding: 4rem 0;
+    text-align: center;
+    display: flex; /* Ativar o modelo flexível */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.description .container {
+    max-width: 800px;
+}
+
+.description h2 {
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40; /* Cinza escuro */
+    margin-bottom: 1.5rem;
+}
+
+.description p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #6c757d; /* Cinza médio */
+}
+
+.description p:first-child {
+    margin-top: 0;
+}
+
+
+
+.carousel, .contacts {
+    margin-top: 2rem;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts ul li {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+/* Estilos para o carrossel de imagens */
+.carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Suaviza a rolagem no iOS */
+}
+
+.carousel-slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 1rem; /* Espaçamento entre as imagens */
+}
+
+.carousel-slide img {
+    width: 300px; /* Defina aqui a largura desejada para todas as imagens */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* Estilos para a área de contatos */
+.contacts {
+    background-color: #F8F9FA; /* Cinza Claro */
+    padding: 2rem 0;
+}
+
+.contacts .container {
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contacts h2 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts ul li {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contacts ul li strong {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #343A40; /* Cinza Escuro */
+    color: #FFFFFF; /* Branco */
+    padding: 2rem 0;
+}
+
+.footer-contact, .footer-social {
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.footer-contact h3, .footer-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-contact p {
+    font-size: 1.2rem;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-social ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social ul li a:hover {
+    color: #28A745; /* Verde */
+}
+
+.footer-bottom {
+    background-color: #343A40; /* Cinza Escuro */
+    color: #FFFFFF; /* Branco */
+}
+
+.footer-bottom p {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+}
+
